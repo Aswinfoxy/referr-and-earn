@@ -9,7 +9,11 @@ body {
   margin-top: 50px;
 }
 
-.input-boxes {
+h1 {
+  font-size: 36px;
+}
+
+.form-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,24 +37,31 @@ button {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
 #code-box {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
 
-#generated-code {
+.code {
   font-size: 24px;
-  font-weight: bold;
   color: black;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.user-info {
-  margin-top: 20px;
-}
-
-.user-info p {
-  font-size: 14px;
+.credentials {
   color: silver;
-  text-align: left;
+}
+
+.credentials p {
+  margin: 5px 0;
+}
+
+.credentials span {
+  font-weight: bold;
 }
